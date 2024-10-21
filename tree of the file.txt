@@ -1,0 +1,449 @@
+D:.
+│  1.mp3
+│  ch.jpg
+│  Discrete Mathematics and Its Applications -7th Edition- - Kenneth H. Rosen Students Solutions Guidel.pdf
+│  f16-e2-answers.pdf
+│  friedberg_linearalgebra.pdf
+│  grade.PNG
+│  index.html
+│  index.js
+│  index.ts
+│  lib_card.JPG
+│  mouse.png
+│  panpanzhurouti.otf
+│  saturday.mp3
+│  song.jpg
+│  style.css
+│  tree.txt
+│  離散數學（rosen）第五版解答.pdf
+│  
+├─algo(清大洪靖嘉)
+│      Alg整理.pdf
+│      I. Foundation.pdf
+│      II Sorting and Order Statistics.pdf
+│      III Data Structures.pdf
+│      IV Advanced Design and Analysis Techniques.pdf
+│      V Advanced Data Structures.pdf
+│      VI Graph Algorithms.pdf
+│      
+├─jpg
+│      1.jpg
+│      11.png
+│      12.jpg
+│      13.jpg
+│      2.jpg
+│      3.png
+│      4.jpg
+│      4469667-PH.jpg
+│      5.png
+│      6.png
+│      7.jpg
+│      8.jpg
+│      81.jpg
+│      91.jpg
+│      img5.jpg
+│      spi.jpeg
+│      spider.jpeg
+│      
+├─mage
+│  ├─01 離散數學DM自編PDF-20210113T143223Z-001
+│  │      CH10、偏序集與全序集.pdf
+│  │      CH11、坡里亞計數.pdf
+│  │      CH13、有限狀態機.pdf
+│  │      CH1、基本數學.pdf
+│  │      CH2、關係與函數.pdf
+│  │      CH3、排列組合及排容原理.pdf
+│  │      CH4、生成函數.pdf
+│  │      CH5、遞迴關係.pdf
+│  │      CH6、圖論.pdf
+│  │      CH7、樹.pdf
+│  │      CH8、演算法分析.pdf
+│  │      CH9、代數系統.pdf
+│  │      photo_2022-08-31_12-26-52.jpg
+│  │      
+│  ├─03 資料結構DS自編PDF
+│  │      CH0、Introduction.pdf
+│  │      CH0、目錄.pdf
+│  │      CH1、Basic：Recursive _ Complexity.pdf
+│  │      CH2、Array.pdf
+│  │      CH3、Stack _ Queue.pdf
+│  │      CH4、Linked List.pdf
+│  │      CH5、Tree.pdf
+│  │      CH6、Graph.pdf
+│  │      CH7、Sort _ Search.pdf
+│  │      CH8、Hashing.pdf
+│  │      CH9、Advance Tree.pdf
+│  │      時間複雜度.docx
+│  │      時間複雜度.pdf
+│  │      
+│  ├─04 演算法AG自編PDF
+│  │      CH0、Introduction.pdf
+│  │      CH1、Time Complexity.pdf
+│  │      CH2、Recurrence.pdf
+│  │      CH3、Dynamic Programming.pdf
+│  │      CH4、Graph Alogrithm.pdf
+│  │      CH5、Computational Geometry.pdf
+│  │      CH6、NP-Complete.pdf
+│  │      
+│  ├─05 計算機組織CA自編PDF
+│  │      CH0、簡介.pdf
+│  │      CH1、ISA.pdf
+│  │      CH2、ALU.pdf
+│  │      CH3、Performance.pdf
+│  │      CH4、Datapath.pdf
+│  │      CH5、Pipeline.pdf
+│  │      CH6、Memory.pdf
+│  │      CH7、Disk.pdf
+│  │      CH8、Multiprocessor.pdf
+│  │      CH9、Others.pdf
+│  │      
+│  └─06 作業系統OS自編PDF
+│          CH0、簡介.pdf
+│          CH10、File.pdf
+│          CH1、導論.pdf
+│          CH2、IO與HW.pdf
+│          CH3、OS.pdf
+│          CH4、Processs.pdf
+│          CH4、Thread.pdf
+│          CH5、Deadlock.pdf
+│          CH6、Synchronization.pdf
+│          CH7、Memory.pdf
+│          CH8、Virtual Memory.pdf
+│          CH9、Disk.pdf
+│          
+├─share
+│      code.html
+│      index.js
+│      share.html
+│      share2.html
+│      share3.html
+│      style.css
+│      
+├─thank
+│      12.png
+│      2.jpg
+│      2.png
+│      3.jpg
+│      gingle.jpg
+│      grade.PNG
+│      index.ts
+│      j.jpg
+│      mj.png
+│      pig.jpg
+│      study.jpg
+│      style.css
+│      thank.html
+│      z.png
+│      
+├─心智圖
+│  │  時間複雜度01.jpg
+│  │  時間複雜度02.jpg
+│  │  時間複雜度03.jpg
+│  │  
+│  ├─la
+│  │      1.png
+│  │      3.png
+│  │      7.png
+│  │      
+│  ├─os
+│  │  │  03.png
+│  │  │  05.png
+│  │  │  07.png
+│  │  │  09.png
+│  │  │  1. 基本概念.pdf.url
+│  │  │  6. Process Synchronization.pdf
+│  │  │  Final-Exam1092_06152021_solution.pdf
+│  │  │  Final-Exam1092_06182021-1.pdf
+│  │  │  OS 01 Intro.jpg
+│  │  │  OS 02 IO.jpg
+│  │  │  OS 04 Process.jpg
+│  │  │  OS 04Thread.jpg
+│  │  │  OS 06 Synchronization.jpg
+│  │  │  OS 08 Virtual Memory.jpg
+│  │  │  計組計結_T2_.pdf
+│  │  │  
+│  │  ├─pipe
+│  │  │      L10-Pipelining-Datapath_EE2011_1102.pdf
+│  │  │      L11-Pipelining-Control_EE2011_1102.pdf
+│  │  │      L11-Pipelining-Control_EE2011_1102_extra.pdf
+│  │  │      L9-Pipelining-Overview_EE2011_1102.pdf
+│  │  │      
+│  │  └─single
+│  │          L7-The-Processor-Datapath_EE2011_1102.pdf
+│  │          L7_2-The-Processor-Datapath_Examples_EE2011_1102.pdf
+│  │          
+│  ├─計組
+│  │      CA 01 ISA.jpg
+│  │      CA 02 ALU.jpg
+│  │      CA 06 Memory.jpg
+│  │      Data path.pdf
+│  │      imgpsh_mobile_save.jfif
+│  │      Pipeline、Datapath、效能評估.pdf
+│  │      
+│  ├─資結
+│  │      DS 01 Recursive.jpg
+│  │      DS 03, 04 Stack _ Queue.jpg
+│  │      DS 06 Graph.jpg
+│  │      DS 08 Hashing.jpg
+│  │      DS 09 Advanced Tree.jpg
+│  │      Search & Sort.pdf
+│  │      TIME.png
+│  │      TREE.png
+│  │      
+│  └─離散數學
+│          DM  01 Set.jpg
+│          DM 03, 04, 05.jpg
+│          DM 06 Graph.jpg
+│          LOGIC.png
+│          
+├─演算法隨筆
+│  │  Amortized Analysis.pdf
+│  │  Computational Geometry.pdf
+│  │  Divide - Conquer.pdf
+│  │  Dynamic Programming.pdf
+│  │  Graph Algorithms.pdf
+│  │  Greedy Algorithm.pdf
+│  │  lec1-1.pdf
+│  │  NP Complete.pdf
+│  │  演算法分析.pdf
+│  │  
+│  ├─1
+│  │  ├─Approximation Algorithm
+│  │  │      1. Approx Vertex Cover.pdf
+│  │  │      2. Euclidean Traveling Salesman Problem.pdf
+│  │  │      3. The set-covering problem.pdf
+│  │  │      
+│  │  ├─Backtracking
+│  │  │      0. Backtracking Algorithm.pdf
+│  │  │      1. Maze Problem.pdf
+│  │  │      2. 4-Queen Problem.pdf
+│  │  │      
+│  │  └─Computational Geometry
+│  │          Any Pair of Line Segment Problem.pdf
+│  │          Constrained 1-center.pdf
+│  │          Convex Hull Problem.pdf
+│  │          Convex or Concave.pdf
+│  │          Interval Problem.pdf
+│  │          Line Segment Problem.pdf
+│  │          Maxima Finding Problem.pdf
+│  │          Point In Polygon.pdf
+│  │          The Closest Pair Problem.pdf
+│  │          The Farthest Pair Problem.pdf
+│  │          Voroni Diagram.pdf
+│  │          
+│  ├─2
+│  │  ├─Divide And Conquer
+│  │  │      Maximum Subarray Problem.pdf
+│  │  │      The Selection Problem.pdf
+│  │  │      
+│  │  ├─DP Problems
+│  │  │      0. Dynamic Programming題型.pdf
+│  │  │      1. Rod Cutting Problem.pdf
+│  │  │      10. KMP Algorithm.pdf
+│  │  │      11. Architects _R us.pdf
+│  │  │      12. Maximum At Both End.pdf
+│  │  │      13. Paren Puzzle.pdf
+│  │  │      14. Sum With Element Not Adjacent.pdf
+│  │  │      15. Finding The Largest Black Square.pdf
+│  │  │      16. String Shuffle.pdf
+│  │  │      2. 0-1 Knapsack.pdf
+│  │  │      3. Matrix Chain.pdf
+│  │  │      4. Longest Common Subsequence.pdf
+│  │  │      5. Longest Increasing Subsequence.pdf
+│  │  │      6. Longest Common Substring.pdf
+│  │  │      7. Longest Palindrome Subsequence.pdf
+│  │  │      8. Minimum Edit Distance.pdf
+│  │  │      9. Optimal Binary Search Tree.pdf
+│  │  │      9. Optimal BST.pdf
+│  │  │      Card Flipping.pdf
+│  │  │      Catalan Number.pdf
+│  │  │      Friends Pairing Problem.pdf
+│  │  │      Gold Mine Problem.pdf
+│  │  │      Limit-Unlimited.pdf
+│  │  │      Number Scrabble.pdf
+│  │  │      Office Hour Optimization.pdf
+│  │  │      Tiling Problem.pdf
+│  │  │      Ugly Number.pdf
+│  │  │      台大109咖啡店.pdf
+│  │  │      
+│  │  ├─Graph Algorithm
+│  │  │      BFS.pdf
+│  │  │      DFS.pdf
+│  │  │      Dijkstra’s Algorithm.pdf
+│  │  │      Euler Tour.pdf
+│  │  │      Floyd Warshall.pdf
+│  │  │      Interval Graph.pdf
+│  │  │      Min- Max Path Problem.pdf
+│  │  │      Minimum Edge Cover.pdf
+│  │  │      SP Problem.pdf
+│  │  │      Strongly Connected Component.pdf
+│  │  │      Topological Sort.pdf
+│  │  │      Tree上的minimal Vertex Cover.pdf
+│  │  │      
+│  │  └─NP Completeness
+│  │          0. Reduction Map.pdf
+│  │          1. Circuit SAT.pdf
+│  │          10. HP to LP.pdf
+│  │          11. 3-SAT to Subset Sum.pdf
+│  │          12. Vertex Cover to Subset Sum.pdf
+│  │          13. Subset Sum to Knapsack Problem.pdf
+│  │          14. Independent Set to Subset Sum.pdf
+│  │          15. LP to SimpleSP.pdf
+│  │          16. Hamiltonian Cycle to Simple Longest Cycle.pdf
+│  │          17. 2-CNF-SAT.pdf
+│  │          18. Any End Point HP to Bounded Degree ST.pdf
+│  │          19. Sorting to Euclidean MST.pdf
+│  │          2. Formula SAT.pdf
+│  │          20. Clique to K-plex.pdf
+│  │          21. Halting Problem.pdf
+│  │          22. Clique to Subgraph Isomorphism.pdf
+│  │          23. Subset Sum to Set Partition.pdf
+│  │          24. 3-SAT to 0-1 integer programming.pdf
+│  │          25. 3-SAT to 3-coloring.pdf
+│  │          26. LIS to Edit Distance.pdf
+│  │          3. SAT To 3-SAT.pdf
+│  │          4. 3SAT to Clique Problem.pdf
+│  │          5. Clique to Independent Set.pdf
+│  │          6. Clique to Vertex Cover.pdf
+│  │          7. Vertex Cover to Hamiltonian cycle.pdf
+│  │          8. Hamiltonian cycle to Hamiltonian path.pdf
+│  │          9. HC to Traveling Salesman Problem.pdf
+│  │          Decision Problem to Opt Problem.pdf
+│  │          npcompleteness.pdf
+│  │          
+│  └─3
+│      ├─Probabilistic analysis
+│      │      Probabilistic analysis.pdf
+│      │      Randomized Algorithm.pdf
+│      │      Skip List.pdf
+│      │      Untitled.pdf
+│      │      
+│      ├─Recursive Function
+│      │      Harmonic Function.pdf
+│      │      
+│      ├─其他設計策略
+│      │      3 Consecutive Number.pdf
+│      │      Branch and Bound.pdf
+│      │      Fetch Bit String.pdf
+│      │      Find The Missing Element.pdf
+│      │      Minimum Absolute Value Pair.pdf
+│      │      Neighbor.pdf
+│      │      Testing Gifted Or Mediocre.pdf
+│      │      Three Sum.pdf
+│      │      Tree Searching Algorithm.pdf
+│      │      Two Sum.pdf
+│      │      判別Parentheses.pdf
+│      │      
+│      └─正確性證明方法
+│              Loop Invariant.pdf
+│              
+└─計算機組織隨筆
+    │  00.架構圖.pdf
+    │  01. ISA設計.pdf
+    │  02. ALU設計＆加法器設計.pdf
+    │  02. 乘法器.pdf
+    │  02.整數的表示.pdf
+    │  03. 除法器.pdf
+    │  04. 浮點數表示法.pdf
+    │  05. 浮點數加減法和捨入.pdf
+    │  06. Performance.pdf
+    │  07. Single Cycle Machine.pdf
+    │  08. Multiple Cycle Machine.pdf
+    │  09. Pipelined Machine.pdf
+    │  10. Pipeline Hazard.pdf
+    │  10.5 Precise Exception.pdf
+    │  11. 進階pipeline.pdf
+    │  12. Memory.pdf
+    │  13. Cache基本概念.pdf
+    │  14. Set Associative Cache.pdf
+    │  15. Multilevel Cache.pdf
+    │  16. Virtual Memory.pdf
+    │  17. 磁碟和 I-O.pdf
+    │  18. Multiprocessor.pdf
+    │  19. 基本概念.pdf
+    │  
+    ├─Advanced Topic
+    │  │  memory-scaling_memcon13.pdf
+    │  │  mensa_comparch_fall2021.pdf
+    │  │  mutlu_hpca03.pdf
+    │  │  onur-comparch-fall2021-lecture17b-parallelism-and-heterogeneity-afterlecture (1).pdf
+    │  │  onur-comparch-fall2021-lecture17b-parallelism-and-heterogeneity-afterlecture.pdf
+    │  │  onur-comparch-fall2021-lecture18-parallelism-and-heterogeneity-ii-afterlecture.pdf
+    │  │  onur-comparch-fall2021-lecture19a-multiprocessors-afterlecture.pdf
+    │  │  onur-comparch-fall2021-lecture19b-memoryordering-afterlecture.pdf
+    │  │  onur-comparch-fall2021-lecture23-simd-and-gpu-afterlecture.pdf
+    │  │  
+    │  ├─General
+    │  │      A domain specific of DL.pdf
+    │  │      cacm19golden-age.pdf
+    │  │      Flynn.pdf
+    │  │      Hints for Computer System Design_.pdf
+    │  │      Requirements, Bottlenecks, and Good Fortune- Agents for Microprocessor Evolution.pdf
+    │  │      
+    │  ├─GPU
+    │  │      Computer architecture.pdf
+    │  │      digitaldesign-2018-lecture21-simdandgpu-afterlecture.pdf
+    │  │      digitaldesign-2018-lecture22-gpuprogramming-afterlecture.pdf
+    │  │      GPU.pdf
+    │  │      onur-digitaldesign-2018-lecture20-simd-afterlecture.pdf
+    │  │      Roofline Model.pdf
+    │  │      SIMD.pdf
+    │  │      Tutorial-ISC2019-Intro-v2.pdf
+    │  │      
+    │  ├─ISA
+    │  │      ASPLOS-bhandarkarclark.pdf
+    │  │      ISA Tradeoff.pdf
+    │  │      RISCV.pdf
+    │  │      
+    │  ├─Memory Architecture
+    │  │      1000gap_proc-mem_speed.pdf
+    │  │      cache design.pdf
+    │  │      DRAM Controller.pdf
+    │  │      Memory performance hog.pdf
+    │  │      raidr-dram-refresh_isca12.pdf
+    │  │      
+    │  └─Processor
+    │      │  Dynamically Scheduled Pipeline.pdf
+    │      │  Implementing_precise_interrupts_in_pipelined_processors.pdf
+    │      │  mcfarling.pdf
+    │      │  MicroArchitecture Tradeoff.pdf
+    │      │  Superscalar.pdf
+    │      │  the microarchitecture of superscalar processors.pdf
+    │      │  
+    │      └─Out-of-order Execution
+    │              13outOfOrder.pdf
+    │              4.2-tomasulo.pdf
+    │              ch14-Vertical.pdf
+    │              chap4.pdf
+    │              eef011-4.pdf
+    │              inorderStudent.pdf
+    │              Out-of-Order_execution.pdf
+    │              outlines27.pdf
+    │              
+    ├─CMU 2015
+    │      18-741 Advanced Computer Architecture Lecture 1_ Intro and Basics.pdf
+    │      Hints for Computer System Design_-1.pdf
+    │      onur-447-spring15-lecture1-intro-afterlecture.pdf
+    │      onur-447-spring15-lecture10-branch-prediction-ii.pdf
+    │      onur-447-spring15-lecture11-precise-exceptions-afterlecture.pdf
+    │      onur-447-spring15-lecture12-ooo-execution-afterlecture (1).pdf
+    │      onur-447-spring15-lecture13-ooo-and-dataflow-afterlecture.pdf
+    │      onur-447-spring15-lecture14-simd-afterlecture.pdf
+    │      onur-447-spring15-lecture15-gpus-vliw-dae-afterlecture.pdf
+    │      onur-447-spring15-lecture16-systolicarrays-static-scheduling-afterlecture.pdf
+    │      onur-447-spring15-lecture25-prefetching-afterlecture.pdf
+    │      onur-447-spring15-lecture26-more-prefetching-and-nvm-afterlecture.pdf
+    │      onur-447-spring15-lecture27-multiprocessors-afterlecture.pdf
+    │      onur-447-spring15-lecture3-isa-tradeoffs-afterlecture.pdf
+    │      onur-447-spring15-lecture32-heterogeneous-systems-afterlecture.pdf
+    │      onur-447-spring15-lecture4-isa-tradeoffs-cont.pdf
+    │      onur-447-spring15-lecture5-uarch-afterlecture.pdf
+    │      onur-447-spring15-lecture6-multi-cycle-and-microprogrammed-microarchitectures-afterlecture.pdf
+    │      onur-447-spring15-lecture7-pipelining-afterlecture.pdf
+    │      onur-447-spring15-lecture8-pipelining-ii-dependence-handling-afterlecture.pdf
+    │      onur-447-spring15-lecture9-branch-prediction-afterlecture.pdf
+    │      
+    └─Pipeline
+            Control Hazard.pdf
+            Forwarding.pdf
+            

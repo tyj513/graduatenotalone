@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>資工所考試回顧 - 改進布局</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&display=swap');
+        
+        :root {
+            --primary-color: #3a4a5a;
+            --secondary-color: #5c7d99;
+            --accent-color: #f39c12;
+            --background-color: #ecf0f1;
+            --text-color: #2c3e50;
+        }
+        
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🎓</text></svg>') no-repeat center center;
+            opacity: 0.1;
+            transform: rotate(-15deg);
+        }
+        
+        h1 {
+            font-size: 3.5rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            font-weight: 300;
+        }
+        
+        nav {
+            background-color: rgba(255,255,255,0.9);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        nav ul li {
+            margin: 0 20px;
+        }
+        
+        nav ul li a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+            font-size: 1.1rem;
+        }
+        
+        nav ul li a:hover {
+            color: var(--accent-color);
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+
+
+
+
+
+
+
+
+        
+        .section {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;  line-height: 2;  
+        } 
+        
+        .section:hover {
+            transform: translateY(-5px);
+        }
+
+
+
+
+
+
+
+
+
+
+        
+        h2 {
+            color: var(--secondary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        
+        .highlight {
+            background-color: rgba(243, 156, 18, 0.2);
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        
+		.professor-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    .professor-card {
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .professor-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .professor-card h3 {
+        color: var(--secondary-color);
+        margin-top: 0;
+        border-bottom: 2px solid var(--accent-color);
+        padding-bottom: 10px;
+    }
+
+    .professor-card ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    .professor-card li {
+        margin-bottom: 8px;
+        line-height: 1.6;
+    }
+	 
+	.hidden-content {
+            display: none; /* 初始隱藏內容 */
+        }
+
+        .hover-text {
+            cursor: pointer; /* 鼠標懸停時顯示手型 */
+        }
+
+        a {
+            color: blue; /* 設置鏈接顏色 */
+            text-decoration: none; /* 移除鏈接下劃線 */
+        }
+
+        a:hover {
+            text-decoration: underline; /* 鼠標懸停時顯示下劃線 */
+        }
+
+		 
+ 
+        
+        @media (max-width: 768px) {
+			.professor-grid {
+            grid-template-columns: 1fr;
+        }  
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            nav ul {
+                flex-direction: column;
+            }
+            
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+        .hidden-text {
+            color: #ecf0f1; /* 使用與背景相同的顏色 */
+            position: absolute;
+            left: 10px; /* 根據需要調整位置 */
+            top: 50%; /* 垂直居中 */
+            transform: translateY(-50%);
+            font-size: 14px; /* 根據需要調整大小 */
+            }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>資工所考試回顧</h1>
+        <p class="subtitle">Do or do not. There is no try.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">首頁</a></li>
+            <li><a href="share2.html">九陽真經</a></li>
+            <li><a href="../thank/thank.html">感謝的人</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+     
+		<div class="container">
+			<section class="section"> 
+				<h2>簡章</h2>
+				<p>
+					明年年後考試 各位辛苦了 </p>
+				<p> 中央的考試時間可以看育達高中的行事曆 大概暑假那時就會公布<a href="https://yd-main.web.app/main/pages/calendar">link</a></p>
+				<p>中山的考試時間要看【當年度教務行事曆】 <a href="https://oaa.nsysu.edu.tw/p/412-1003-98.php?Lang=zh-tw">link</a></p>
+				<p>交大、成大就只能通靈</p>
+				<p> 清大則是會公布在行事曆上 已經出來6號.7號
+					<a href="https://dgaa.site.nthu.edu.tw/var/file/209/1209/img/275/784811910.pdf">link</a>
+				</p>
+				<p> 台大基本上會第一個出來通常都會在假日 所以台大應該會在8號.9號
+				</p> 
+			</section>
+		 
+			<section class="section"> 
+				<h2>訂房</h2>
+				<p>
+					推清齋十樓 <a href="https://affairs-guesths.vm.nthu.edu.tw/guest10/">link</a>
+				</p>
+				<p class="hover-text">
+					大推清齋會館 <a href="https://affairs-guesths.vm.nthu.edu.tw/">link</a>
+				</p>
+				<p class="hidden-content" id="hiddenContent">
+					在下寫的 <a href="code.html" style="color: rgba(255, 255, 255, 0.943);">code</a> 雖然那時一開始還是沒有搶到
+				</p>
+			</section> 
+		
+			<section class="section">
+				<h2>成大教授</h2>
+				<div class="professor-grid">
+					<div class="professor-card">
+						<h3>黃崇明</h3>
+						<ul>
+							<li>碩一修課 報paper</li>
+							<li>碩二 論文</li>
+							<li>黃:不做ai 要做請去找別間</li>
+							<li>一周一次group meeting</li>
+							<li>碩二 會多1-1的meeting</li>
+							<li>研究主題老師分</li>
+							<li>要會維護web</li>
+						</ul>
+					</div>
+
+					<div class="professor-card">
+						<h3>涂嘉恒</h3>
+						<ul>
+							<li>狠精實</li>
+							<li>自駕車 量子 嵌入式</li>
+							<li>學長會問你專題做什麼 有遇到什麼困難 如何去解決</li>
+							<li>老師=>博班學長=>研究生</li>
+							<li>一般3500 自駕車6000-10000</li>
+							<li>要會維護web</li>
+						</ul>
+					</div>
+					<div class="professor-card">
+						<h3>許舒涵</h3>
+						<ul>
+							<li>實驗室在老師辦公室旁邊</li>
+							<li>學長十分親民，有甚麼問題盡量問</li>
+							<li>跟老師面談vibe很喜歡 但也以為</li>
+							<li>研究主題主要做ai相關 但內容較廣 比較偏向自己想</li>
+							<li>都用Line聯繫 不會group meeting因為老師覺得沒效率</li>
+							<li>兩年會放人</li>
+						</ul>
+					</div>
+
+
+
+				<div class="professor-card">
+					<h3>詹慧伶</h3>
+					<ul>
+						<li>在保羅實驗室有遇到這間實驗室的學長</li>
+						<li>他說老師人也蠻好的 推推	</li>
+
+					</ul>
+				</div>
+
+
+
+
+				<div class="professor-card">
+					<h3>盧文祥</h3>
+					<ul>
+						<li>在教授實驗室面談了快3小時</li>
+						<li>老師很熱心地展現學生的成果</li>
+						<li>很像爸爸在宣揚自己小孩的成果</li>
+						<li>做NLP/語音合成.辨識</li>
+						<li>prefer機率模型 parser規則</li>
+						<li>情感語義分析 會一直強調實驗室名字每個字都有含義</li>
+						<li>收六個</li>
+						<li>會跟楊中平老師合作</li>
+						<li>人數基本上抓2:1</li>
+
+					</ul>
+				</div>
+
+
+
+				<div class="professor-card">
+					<h3>蔣榮先</h3>
+					<ul>
+						<li>跟醫院合作居多 偏操</li>
+						<li>碩二 </li>
+						<li>a.跟一位學姊跟醫生合作做腎臟數值相關的 </li>
+
+						<li>b.國外切片影像</li>
+
+						<li>c.越南學姊 llm prompt </li>
+
+						<li>d.跟慈濟醫院合作 ct影像 資料生成 </li>
+
+						<li>是未來應該會繼續做下去的內容</li>
+
+						<li>碩一越南學長在做跟文字相關的</li>
+
+						<li>博班學姊說教授雙子座 個性溫文儒雅</li>
+
+						<li>碩一 修課 計畫
+
+						<li>碩二 題目可由計畫延伸或新的</li>
+
+						<li>meeting 2次 1下group</li>
+
+						<li>禮拜五 seminar 報paper</li>
+
+						<li>薪水6000</li>
+
+						<li>碩二可能會增加</li>
+
+					</ul>
+				</div>
+
+
+
+
+				<div class="professor-card">
+					<h3>何建忠</h3>
+					<ul>
+						<li>聽學長說應該蠻涼的 但已經蠻多人去找了 應該也滿了</li>
+						<li>meeting 1周一次 讀書會</li>
+						<li>題目自己想 or延續學長姐</li>
+
+					</ul>
+				</div>
+
+
+
+
+				<div class="professor-card">
+					<h3>張燕光</h3>
+					<ul>
+						<li>2meeting</li>
+						<li>禮拜三不要排課 因為要報paper group線上</li>
+						<li>paper找自己喜歡的內容但研究內容不要差太多</li>
+						<li>可能會接助教</li>
+						<li>題目主要是自己想</li>
+						<li>研究內容:packet分類/sdn/fpg</li>
+
+					</ul>
+				</div>
+
+
+
+				<div class="professor-card">
+					<h3>王士豪</h3>
+					<ul>
+						<li>醫學影像</li>
+						<li>機器學習</li>
+						<li>實驗室氣氛不錯</li>
+						<li><li>晚上group meeting 基本2-3hr</li>
+						<li>題目做生醫相關</li>
+						<li>從計畫衍伸到論文</li>
+						<li>沒雜事 兩年畢</li>
+						<li>有一門規定要修 上下學期的  </li>
+					</ul>
+				</div>
+
+
+
+
+				<div class="professor-card">
+					<h3>許靜芳</h3>
+					<ul>
+						<li>題目自己想 沒有錢 做vlc 可見光</li>
+						<li>可能會擔任助教 </li>
+					</ul>
+				</div>
+
+
+
+
+				<div class="professor-card">
+					<h3>蘇文鈺</h3>
+					<ul>
+						<li>老師實驗室很多黑膠 真的感受到老師很愛音樂</li>
+						<li>做軟體simulation 系統整合現有的open source</li>
+						<li>也會做實體機器人</li>
+						<li>不會接計畫</li>
+						<li>用unity 要會c++ py</li>
+						<li>老師主要是會分派學生要做的內容</li>
+						<li>2年就一定會放人 因為老師也沒論文kpi壓力 </li>
+					</ul>
+				</div>
+
+				<div class="professor-card">
+					<h3>曾繁勛</h3>
+					<ul>
+						<li>行動網路 可能會擔任助教 大課</li>
+						<li>老師人很好 如果有意願找他要報paper</li>
+					</ul>
+				</div>
+
+
+				<div class="professor-card">
+					<h3>英超 培殷</h3>
+					<ul>
+						<li>做硬體 前者變成超人 後者帶你去發哥</li>
+					</ul>
+				</div>
+
+
+
+				<div class="professor-card">
+					<h3>賀保羅</h3>
+					<ul>
+						<li>題目也主要自己想 老師不太管</li>
+						<li>實驗室超級無敵歡樂 逛起來最HAPPY的</li>
+						<li>但保羅其實會挑學生</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+
+		<section class="section"> 
+			<h2>最後最後的總結</h2>
+			<p>
+				多找幾個教授聽，即使你沒有要去還是可以聽看看。
+				反正之後也可能修到某位教授的課。
+				主要是看實驗室研究領域跟氛圍是否合你的意。
+				祝找教授順利啦。
+				也很恭喜你發現這個隱藏(?)網站，
+				不知道你還有沒有發現其他的小彩蛋哈哈哈。
+				如果有關於教授的問題也可以寫信問我(?) 
+				<span class="email-note">f12 ctrl+f: email</span>
+			</p>
+		</section>
+		
+		<style>
+
+			.email-note {
+					display: block;  
+					font-size: 0.8em;  
+					opacity: 0.1;  
+					color: #2c3e50;
+					text-align: right;  
+				}
+		</style>
+		
+ 
+    </div>
+    <footer>
+        <p>&copy; 2024 資工所考試回顧 | 設計：<a href="https://miro.com/app/board/uXjVP200ync=/?share_link_id=370763437742"
+                style="text-decoration: none; color: inherit;">Ty513</a></p>
+        <!--倘若你發現這個小驚喜 傳email至ben20415@gmail.com 主旨寫【我會正取的】-->
+    </footer>
+    </a>
+	<script>
+        const hoverText = document.querySelector(".hover-text");
+        const hiddenContent = document.getElementById("hiddenContent"); // 修正 ID
+        let timeoutId; // 儲存 timeout ID
+
+        hoverText.addEventListener("mouseenter", function () {
+            hiddenContent.style.display = "block"; // 顯示隱藏內容
+            clearTimeout(timeoutId); // 清除任何先前的計時器
+        });
+
+        hoverText.addEventListener("mouseleave", function () {
+            // 在鼠標移開時設置計時器，五秒後隱藏內容
+            timeoutId = setTimeout(() => {
+                hiddenContent.style.display = "none"; // 隱藏內容
+            }, 5000);
+        });
+    </script>
+  
+</body>
+
+</html>
